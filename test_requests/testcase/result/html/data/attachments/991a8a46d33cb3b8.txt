@@ -1,0 +1,2 @@
+{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 4, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+[1]

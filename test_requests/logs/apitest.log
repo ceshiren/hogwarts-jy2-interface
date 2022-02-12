@@ -1,0 +1,754 @@
+2022-02-12 16:53:37,614 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 16:53:37,620 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 16:53:37,624 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 16:53:37,627 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 16:53:37,628 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 16:53:37,632 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 16:53:37,636 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 16:53:37,637 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 16:53:37,642 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 16:53:37,645 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 16:53:37,646 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 16:53:37,648 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 16:53:37,650 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 16:53:37,651 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 16:53:37,652 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 16:53:37,655 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 16:53:37,659 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 16:53:37,676 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 16:53:37,677 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:53:37,678 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 16:53:37,678 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 16:53:37,679 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 16:53:37,683 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 16:53:37,684 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:53:37,685 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 16:53:37,687 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 16:53:37,688 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 16:53:37,690 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 16:53:37,693 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 16:53:37,694 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 16:53:37,695 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 16:53:37,700 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 16:53:37,714 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 16:53:37,718 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 16:53:37,719 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:53:37,720 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:53:37,720 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 16:53:37,724 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 16:53:37,727 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:53:37,731 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:37,731 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 16:53:37,743 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:38,077 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 16:53:38,080 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:38,080 root INFO base_api:28 <Response [200]>
+2022-02-12 16:53:38,081 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:38,081 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 16:53:38,085 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:38,462 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 16:53:38,465 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:38,465 root INFO base_api:28 <Response [200]>
+2022-02-12 16:53:38,465 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:38,466 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 16:53:38,468 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:38,763 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 16:53:38,767 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:38,767 root INFO base_api:28 <Response [200]>
+2022-02-12 16:53:38,767 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:38,767 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 16:53:38,777 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:39,159 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 16:53:39,162 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:39,162 root INFO base_api:28 <Response [200]>
+2022-02-12 16:53:39,162 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:39,162 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 16:53:39,167 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:39,431 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 16:53:39,435 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:39,435 root INFO base_api:28 <Response [200]>
+2022-02-12 16:53:39,435 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:39,435 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 16:53:39,440 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:39,814 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 16:53:39,817 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:39,818 root INFO base_api:28 <Response [200]>
+2022-02-12 16:53:39,818 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:53:39,818 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 16:53:39,822 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:53:40,112 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 16:53:40,118 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:53:40,118 root INFO base_api:28 <Response [200]>
+2022-02-12 16:54:46,531 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 16:54:46,539 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 16:54:46,546 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 16:54:46,549 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 16:54:46,552 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 16:54:46,555 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 16:54:46,557 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 16:54:46,560 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 16:54:46,564 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 16:54:46,567 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 16:54:46,569 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 16:54:46,573 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 16:54:46,575 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 16:54:46,577 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 16:54:46,579 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 16:54:46,583 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 16:54:46,586 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 16:54:46,594 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 16:54:46,597 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:54:46,597 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 16:54:46,599 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 16:54:46,601 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 16:54:46,609 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 16:54:46,610 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:54:46,611 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 16:54:46,614 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 16:54:46,616 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 16:54:46,618 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 16:54:46,621 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 16:54:46,623 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 16:54:46,626 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 16:54:46,632 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 16:54:46,645 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 16:54:46,654 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 16:54:46,656 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:54:46,657 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:54:46,658 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 16:54:46,666 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 16:54:46,668 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 16:54:46,672 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:46,673 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 16:54:46,703 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:46,994 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 16:54:46,999 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:46,999 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 16:54:47,002 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:47,002 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 16:54:47,007 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:47,396 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 16:54:47,399 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:47,400 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-02-12 16:54:47,401 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:47,401 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 16:54:47,406 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:47,688 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 16:54:47,692 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:47,692 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 16:54:47,693 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:47,693 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 16:54:47,697 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:48,053 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 16:54:48,058 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:48,059 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 16:54:48,059 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:48,059 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 16:54:48,068 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:48,341 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 16:54:48,345 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:48,346 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 16:54:48,346 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:48,346 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 16:54:48,351 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:48,769 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 16:54:48,772 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:48,772 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 16:54:48,772 root INFO base_api:28 --------- requests data ---------
+2022-02-12 16:54:48,773 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 16:54:48,777 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 16:54:49,091 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 16:54:49,098 root INFO base_api:28 --------- response data ---------
+2022-02-12 16:54:49,098 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:05:54,813 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:05:54,821 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:05:54,825 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:05:54,827 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:05:54,829 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:05:54,831 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:05:54,832 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:05:54,833 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:05:54,835 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:05:54,837 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:05:54,839 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:05:54,843 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:05:54,844 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:05:54,845 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:05:54,846 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:05:54,848 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:05:54,849 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:05:54,852 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:05:54,853 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:05:54,854 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:05:54,855 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:05:54,856 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:05:54,863 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:05:54,865 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:05:54,865 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:05:54,868 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:05:54,871 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:05:54,876 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:05:54,879 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:05:54,880 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:05:54,881 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:05:54,889 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:05:54,901 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:05:54,907 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:05:54,909 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:05:54,909 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:05:54,910 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:05:54,917 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:05:54,919 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:05:54,927 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:54,930 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:05:54,962 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:55,268 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:05:55,272 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:55,273 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:05:55,274 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:55,275 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 17:05:55,290 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:55,648 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:05:55,653 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:55,653 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-02-12 17:05:55,654 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:55,654 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:05:55,659 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:55,956 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:05:55,960 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:55,960 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:05:55,963 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:55,963 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 17:05:55,972 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:56,363 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:05:56,366 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:56,367 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:05:56,367 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:56,367 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:05:56,372 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:56,701 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:05:56,703 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:56,704 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:05:56,704 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:56,704 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 17:05:56,710 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:57,036 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 17:05:57,041 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:57,041 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:05:57,041 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:05:57,042 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:05:57,048 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:05:57,320 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:05:57,326 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:05:57,327 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:06:13,248 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:06:13,254 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:06:13,259 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:06:13,263 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:06:13,265 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:06:13,266 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:06:13,267 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:06:13,268 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:06:13,272 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:06:13,274 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:06:13,276 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:06:13,278 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:06:13,280 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:06:13,280 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:06:13,282 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:06:13,284 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:06:13,286 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:06:13,290 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:06:13,295 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:06:13,296 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:06:13,297 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:06:13,299 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:06:13,305 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:06:13,309 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:06:13,310 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:06:13,313 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:06:13,317 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:06:13,320 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:06:13,331 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:06:13,332 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:06:13,333 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:06:13,342 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:06:13,354 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:06:13,359 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:06:13,361 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:06:13,362 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:06:13,363 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:06:13,368 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:06:13,370 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:06:13,375 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:13,375 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:06:13,407 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:13,710 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:06:13,715 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:13,715 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:06:13,717 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:13,717 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 17:06:13,724 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:14,092 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:06:14,096 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:14,096 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-02-12 17:06:14,096 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:14,096 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:06:14,100 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:14,396 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:06:14,399 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:14,399 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:06:14,400 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:14,401 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 17:06:14,405 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:14,808 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:06:14,811 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:14,811 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:06:14,812 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:14,812 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:06:14,815 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:15,081 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:06:15,084 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:15,085 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:06:15,085 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:15,085 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 17:06:15,089 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:15,450 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 17:06:15,454 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:15,455 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:06:15,455 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:06:15,456 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:06:15,463 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:06:15,773 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:06:15,776 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:06:15,776 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:09:21,665 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:09:21,676 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:09:21,681 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:09:21,684 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:09:21,687 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:09:21,690 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:09:21,691 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:09:21,692 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:09:21,696 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:09:21,698 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:09:21,699 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:09:21,704 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:09:21,706 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:09:21,707 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:09:21,709 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:09:21,711 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:09:21,713 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:09:21,717 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:09:21,724 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:09:21,728 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:09:21,734 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:09:21,736 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:09:21,747 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:09:21,748 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:09:21,750 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:09:21,755 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:09:21,758 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:09:21,760 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:09:21,766 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:09:21,767 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:09:21,769 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:09:21,782 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:09:21,809 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:09:21,816 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:09:21,817 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:09:21,817 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:09:21,818 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:09:21,824 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:09:21,826 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:09:21,831 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:21,832 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:09:21,846 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:22,159 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:09:22,162 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:22,163 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:09:22,164 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:22,164 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 17:09:22,169 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:22,521 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:09:22,525 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:22,525 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-02-12 17:09:22,525 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:22,525 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:09:22,529 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:22,786 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:09:22,790 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:22,790 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:09:22,793 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:22,793 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 17:09:22,799 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:23,213 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:09:23,216 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:23,216 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:09:23,216 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:23,216 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:09:23,221 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:23,544 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:09:23,547 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:23,547 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:09:23,547 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:23,548 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 17:09:23,552 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:23,936 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 17:09:23,940 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:23,941 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:09:23,941 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:09:23,941 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:09:23,944 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:09:24,204 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:09:24,207 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:09:24,208 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:10:39,866 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:10:39,873 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:10:39,879 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:10:39,882 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:10:39,884 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:10:39,888 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:10:39,889 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:10:39,890 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:10:39,894 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:10:39,897 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:10:39,898 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:10:39,901 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:10:39,903 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:10:39,904 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:10:39,905 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:10:39,907 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:10:39,909 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:10:39,911 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:10:39,913 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:10:39,913 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:10:39,915 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:10:39,916 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:10:39,920 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:10:39,923 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:10:39,924 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:10:39,926 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:10:39,928 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:10:39,931 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:10:39,934 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:10:39,935 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:10:39,937 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:10:39,946 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:10:39,955 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:10:39,962 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:10:39,963 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:10:39,964 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:10:39,965 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:10:39,969 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:10:39,971 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:10:39,975 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:39,975 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:10:39,994 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:40,311 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:10:40,317 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:40,317 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:10:40,318 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:40,318 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 17:10:40,323 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:40,647 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:10:40,653 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:40,654 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-02-12 17:10:40,654 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:40,654 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:10:40,662 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:40,930 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:10:40,935 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:40,935 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:10:40,938 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:40,938 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 17:10:40,945 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:41,287 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:10:41,291 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:41,291 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:10:41,291 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:41,291 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:10:41,296 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:41,595 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:10:41,601 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:41,601 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:10:41,602 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:41,602 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 17:10:41,611 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:42,007 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 17:10:42,010 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:42,010 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:10:42,010 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:10:42,010 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:10:42,013 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:10:42,286 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:10:42,289 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:10:42,290 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:13:31,491 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:13:31,498 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:13:31,503 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:13:31,507 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:13:31,509 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:13:31,513 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:13:31,514 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:13:31,515 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:13:31,520 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:13:31,523 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:13:31,528 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:13:31,534 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:13:31,537 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:13:31,539 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:13:31,542 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:13:31,545 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:13:31,547 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:13:31,551 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:13:31,552 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:13:31,553 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:13:31,554 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:13:31,556 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:13:31,560 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:13:31,561 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:13:31,561 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:13:31,564 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:13:31,565 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:13:31,568 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:13:31,572 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:13:31,573 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:13:31,574 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:13:31,580 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:13:31,591 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:13:31,596 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:13:31,598 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:13:31,599 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:13:31,599 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:13:31,605 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:13:31,607 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:13:31,610 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:31,611 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:13:31,641 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:31,972 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:13:31,976 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:31,977 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:13:31,978 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:31,978 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 3}}
+2022-02-12 17:13:31,983 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:32,340 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:13:32,342 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:32,343 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 3}
+2022-02-12 17:13:32,343 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:32,343 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:13:32,349 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:32,642 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:13:32,646 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:32,646 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:13:32,648 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:32,648 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 3, 'name': 'hogwarts111-update'}}
+2022-02-12 17:13:32,652 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:33,077 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:13:33,080 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:33,081 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:13:33,081 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:33,081 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:13:33,085 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:33,359 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:13:33,363 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:33,363 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 3, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:13:33,364 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:33,364 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3'}
+2022-02-12 17:13:33,367 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:33,723 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=3 HTTP/1.1" 200 32
+2022-02-12 17:13:33,726 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:33,726 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:13:33,727 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:13:33,727 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:13:33,730 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:13:34,001 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:13:34,006 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:13:34,006 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:23:18,739 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:23:18,751 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:23:18,755 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:23:18,758 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:23:18,759 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:23:18,761 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:23:18,762 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:23:18,763 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:23:18,766 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:23:18,768 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:23:18,769 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:23:18,772 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:23:18,773 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:23:18,774 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:23:18,775 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:23:18,777 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:23:18,779 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:23:18,782 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:23:18,785 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:23:18,785 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:23:18,787 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:23:18,789 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:23:18,798 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:23:18,800 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:23:18,800 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:23:18,803 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:23:18,805 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:23:18,809 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:23:18,812 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:23:18,814 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:23:18,816 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:23:18,825 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:23:18,834 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:23:18,841 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:23:18,843 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:23:18,843 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:23:18,844 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:23:18,864 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:23:18,868 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:23:18,873 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:18,873 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:23:18,891 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:19,205 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:23:19,212 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:19,212 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:23:19,213 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:19,213 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:23:19,222 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:19,506 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 301
+2022-02-12 17:23:19,510 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:19,510 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 2, 'name': '技术部', 'parentid': 1, 'order': 1, 'name_en': 'JISHU1', 'department_leader': []}, {'id': 4, 'name': 'j', 'parentid': 1, 'order': 3, 'name_en': 'JISHU3', 'department_leader': []}]}
+2022-02-12 17:23:19,512 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:19,512 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=2'}
+2022-02-12 17:23:19,516 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:19,892 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=2 HTTP/1.1" 200 32
+2022-02-12 17:23:19,897 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:19,897 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:23:19,897 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:19,897 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=4'}
+2022-02-12 17:23:19,902 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:20,290 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=4 HTTP/1.1" 200 32
+2022-02-12 17:23:20,294 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:20,294 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:23:20,295 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:20,295 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 4}}
+2022-02-12 17:23:20,299 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:20,629 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:23:20,634 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:20,634 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 4}
+2022-02-12 17:23:20,635 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:20,635 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:23:20,640 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:20,909 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:23:20,912 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:20,912 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 4, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:23:20,912 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:20,913 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 4, 'name': 'hogwarts111-update'}}
+2022-02-12 17:23:20,917 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:21,326 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:23:21,330 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:21,331 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:23:21,332 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:21,332 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:23:21,339 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:21,629 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:23:21,632 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:21,633 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 4, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:23:21,633 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:21,634 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=4'}
+2022-02-12 17:23:21,637 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:21,995 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=4 HTTP/1.1" 200 32
+2022-02-12 17:23:21,998 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:21,998 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:23:21,998 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:23:21,999 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:23:22,003 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:23:22,314 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:23:22,320 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:23:22,321 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:28:07,134 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2022-02-12 17:28:07,140 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2022-02-12 17:28:07,145 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2022-02-12 17:28:07,147 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2022-02-12 17:28:07,149 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2022-02-12 17:28:07,152 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2022-02-12 17:28:07,154 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2022-02-12 17:28:07,155 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2022-02-12 17:28:07,159 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2022-02-12 17:28:07,161 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2022-02-12 17:28:07,163 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2022-02-12 17:28:07,167 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2022-02-12 17:28:07,169 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2022-02-12 17:28:07,170 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2022-02-12 17:28:07,172 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2022-02-12 17:28:07,174 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2022-02-12 17:28:07,176 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2022-02-12 17:28:07,179 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2022-02-12 17:28:07,181 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:28:07,182 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2022-02-12 17:28:07,183 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2022-02-12 17:28:07,184 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2022-02-12 17:28:07,188 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2022-02-12 17:28:07,190 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:28:07,191 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2022-02-12 17:28:07,193 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2022-02-12 17:28:07,194 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2022-02-12 17:28:07,196 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2022-02-12 17:28:07,200 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2022-02-12 17:28:07,201 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2022-02-12 17:28:07,202 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2022-02-12 17:28:07,207 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2022-02-12 17:28:07,217 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2022-02-12 17:28:07,223 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2022-02-12 17:28:07,224 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:28:07,224 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:28:07,225 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2022-02-12 17:28:07,228 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2022-02-12 17:28:07,230 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2022-02-12 17:28:07,235 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:07,235 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken', 'params': {'corpid': 'ww876064acebf0fa3c', 'corpsecret': 'A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY'}}
+2022-02-12 17:28:07,254 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:07,606 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww876064acebf0fa3c&corpsecret=A7LgEhs_Ty_dYXO9BcgY04PJBdawQ6JPzxNQJpv9YxY HTTP/1.1" 200 277
+2022-02-12 17:28:07,608 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:07,608 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'access_token': '8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'expires_in': 7200}
+2022-02-12 17:28:07,608 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:07,609 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:28:07,611 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:07,912 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:28:07,915 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:07,916 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}
+2022-02-12 17:28:07,919 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:07,919 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'name': 'hogwarts111', 'name_en': 'h111', 'parentid': 1, 'order': 2, 'id': 4}}
+2022-02-12 17:28:07,923 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:08,284 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 39
+2022-02-12 17:28:08,286 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:08,287 root INFO base_api:28 {'errcode': 0, 'errmsg': 'created', 'id': 4}
+2022-02-12 17:28:08,287 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:08,287 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:28:08,290 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:08,607 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 216
+2022-02-12 17:28:08,610 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:08,610 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 4, 'name': 'hogwarts111', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:28:08,611 root INFO base_api:28 部门创建后的部门名称列表:['Hogwarts', 'hogwarts111']
+2022-02-12 17:28:08,611 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:08,611 root INFO base_api:28 {'method': 'POST', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA', 'json': {'id': 4, 'name': 'hogwarts111-update'}}
+2022-02-12 17:28:08,615 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:09,036 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 32
+2022-02-12 17:28:09,040 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:09,040 root INFO base_api:28 {'errcode': 0, 'errmsg': 'updated'}
+2022-02-12 17:28:09,040 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:09,040 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:28:09,044 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:09,350 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 223
+2022-02-12 17:28:09,353 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:09,354 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}, {'id': 4, 'name': 'hogwarts111-update', 'parentid': 1, 'order': 2, 'name_en': 'h111', 'department_leader': []}]}
+2022-02-12 17:28:09,354 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:09,355 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=4'}
+2022-02-12 17:28:09,359 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:09,760 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA&id=4 HTTP/1.1" 200 32
+2022-02-12 17:28:09,763 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:09,763 root INFO base_api:28 {'errcode': 0, 'errmsg': 'deleted'}
+2022-02-12 17:28:09,764 root INFO base_api:28 --------- requests data ---------
+2022-02-12 17:28:09,764 root INFO base_api:28 {'method': 'GET', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA'}
+2022-02-12 17:28:09,768 urllib3.connectionpool DEBUG connectionpool:939 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2022-02-12 17:28:10,066 urllib3.connectionpool DEBUG connectionpool:433 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=8yPu7FUl1LoaO_xOeTMbHLwfoeiIrGQ-QerX-p-XopH9znq-1sO7nA_f8WplaUcNmCF3ypPFTYc8dDPmMVBzYU9yonHOvUuIXelz5VSugsGhT-P8bDsl0wFu208zZJiT1HGU3-6fflSmUf71ivkSTn7drC5fu8sgLTVNPh-tkAharyJXLnwJSys9wxXRpZ5A1bQsUb6BvNuWjERavIYekA HTTP/1.1" 200 123
+2022-02-12 17:28:10,072 root INFO base_api:28 --------- response data ---------
+2022-02-12 17:28:10,072 root INFO base_api:28 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000, 'department_leader': []}]}

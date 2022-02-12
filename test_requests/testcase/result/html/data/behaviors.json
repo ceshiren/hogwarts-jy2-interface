@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "部门管理",
+    "children" : [ {
+      "name" : "部门操作场景用例",
+      "children" : [ {
+        "name" : "test_department_scene",
+        "uid" : "c33cde7c33e53573",
+        "parentUid" : "cafbb6e36d31d923424357425c4ef3b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644658087919,
+          "stop" : 1644658090074,
+          "duration" : 2155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cafbb6e36d31d923424357425c4ef3b0"
+    } ],
+    "uid" : "e96a8b8237ba44d09d61657369c49b14"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,159 @@
+{
+  "uid" : "c33cde7c33e53573",
+  "name" : "test_department_scene",
+  "fullName" : "test_department.TestDepartment#test_department_scene",
+  "historyId" : "d71290b724f03aae3a915d33ee8cceb4",
+  "time" : {
+    "start" : 1644658087919,
+    "stop" : 1644658090074,
+    "duration" : 2155
+  },
+  "description" : "\n        完成部门增删查改的场景测试\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    完成部门增删查改的场景测试\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1644658087233,
+      "stop" : 1644658087917,
+      "duration" : 684
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644658087134,
+      "stop" : 1644658087232,
+      "duration" : 98
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        完成部门增删查改的场景测试\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建部门",
+      "time" : {
+        "start" : 1644658087919,
+        "stop" : 1644658088287,
+        "duration" : 368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查询部门创建结果",
+      "time" : {
+        "start" : 1644658088287,
+        "stop" : 1644658088612,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d3dc27dbc40c18b9",
+      "name" : "log",
+      "source" : "d3dc27dbc40c18b9.txt",
+      "type" : "text/plain",
+      "size" : 14048
+    }, {
+      "uid" : "991a8a46d33cb3b8",
+      "name" : "stdout",
+      "source" : "991a8a46d33cb3b8.txt",
+      "type" : "text/plain",
+      "size" : 247
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1644658090075,
+      "stop" : 1644658090075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "部门操作场景用例"
+  }, {
+    "name" : "feature",
+    "value" : "部门管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "feier.lan"
+  }, {
+    "name" : "thread",
+    "value" : "53861-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c33cde7c33e53573.json",
+  "parameterValues" : [ ]
+}
