@@ -26,6 +26,8 @@ class TestWework:
         print(r.json())
         # 获取 access_token
         self.token = r.json()["access_token"]
+        # 定义操作的部门 id
+        self.depart_id = 3
 
     def test_create_department(self):
         '''
@@ -39,7 +41,7 @@ class TestWework:
             "name_en": "h111",
             "parentid": 1,
             "order": 2,
-            "id": 3
+            "id": self.depart_id
         }
 
         # 发出 post 请求
@@ -47,3 +49,50 @@ class TestWework:
         r = requests.request(method="POST", url=url, json=data)
         # 业务断言
         assert r.json()["errcode"] == 0
+        # 通过查询部门列表接口的返回值，验证部门是否创建成功
+        depart_info = self.test_get_departments()
+        print(depart_info)
+        assert depart_info["department"][1]["name"] == "hogwarts111"
+
+    def test_update_department(self):
+        '''
+        更新部门信息
+        :return:
+        '''
+        url = f"https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token={self.token}"
+
+        data = {
+            "id": self.depart_id,
+            "name": "hogwarts111-update"
+        }
+
+        r = requests.request(method="POST", url=url, json=data)
+
+        assert r.json()["errcode"] == 0
+        depart_info = self.test_get_departments()
+        assert depart_info["department"][1]["name"] == "hogwarts111-update"
+
+
+    def test_delete_department(self):
+        '''
+        删除部门
+        :return:
+        '''
+        # 指定删除部门的id
+        # id = 3
+        url = f"https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token={self.token}&id={self.depart_id}"
+        r = requests.request(method="GET", url=url)
+        assert r.json()["errcode"] == 0
+        depart_info = self.test_get_departments()
+        assert len(depart_info["department"]) == 1
+
+    def test_get_departments(self):
+        '''
+        获取当前已经存在的所有的部门信息
+        :return: r.json() 查询到的所有的部门信息
+        '''
+        url = f"https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token={self.token}"
+        r = requests.request(method="GET", url=url)
+        print(r.json())
+        assert r.json()["errcode"] == 0
+        return r.json()
